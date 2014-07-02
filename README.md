@@ -29,12 +29,21 @@ load-limit depends on the logic of the game itself.)
 不断增加承载上限, 单台机器的承载上限取决于游戏逻辑本身的复杂度。)
 
 
+KBEngine Homepage
+
+http://www.kbengine.org
+
+sources     : https://github.com/kbengine/kbengine/
+
 
 ## KBEngine-cocos2dx 
+
    会实现KBEngine Cocos2dx 版本. 重点是客户端框架封装. 提供和KBE相似的开发流程. 可能无python脚本.但用CPP写逻辑也不错吧.
    地址在  https://github.com/cnsoft/kbengine-cocos2dx/tree/cocos2dx-cnsoft/kbe/src/client/cocos2dx 目录下.
-
+ 
    2014-07-01 PreAlpha is ready. Now, cocos2dx client can chat with unity3d client in the KBE same game server . by cnsoft
+   
+   2014-07-02 moved to :   https://github.com/cnsoft/kbengine_cocos2dx_demo/
    
    
  ![screenshots1](https://raw.githubusercontent.com/cnsoft/kbengine-cocos2dx/cocos2dx-cnsoft/kbe/src/client/cocos2dx/snapshots/u_cocos2d_chat.PNG)
