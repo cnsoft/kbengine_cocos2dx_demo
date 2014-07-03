@@ -51,7 +51,7 @@ sources     : https://github.com/kbengine/kbengine/
 
    2014-07-01 PreAlpha is ready. Now, cocos2dx client can chat with unity3d client in the KBE same game server . by cnsoft
    
-   2014-07-02 moved to :   https://github.com/cnsoft/kbengine_cocos2dx_demo/
+   2014-07-02 create submodule and moved here :  https://github.com/cnsoft/kbengine_cocos2dx_demo/ 
    
    
  ![screenshots1](https://raw.githubusercontent.com/cnsoft/kbengine-cocos2dx/cocos2dx-cnsoft/kbe/src/client/cocos2dx/snapshots/u_cocos2d_chat.PNG)
