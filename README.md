@@ -41,6 +41,7 @@ sources     : https://github.com/kbengine/kbengine/
       unity3d     : https://github.com/kbengine/kbengine_unity3d_warring
       ogre        : https://github.com/kbengine/kbengine_ogre_demo
       html5       : https://github.com/kbengine/kbengine_html5_demo
+      cocos2dx    : https://github.com/kbengine/kbengine_cocos2dx_demo
       	
 
 ## KBEngine-cocos2dx 
@@ -53,6 +54,7 @@ sources     : https://github.com/kbengine/kbengine/
    
    2014-07-02 create submodule and moved here :  https://github.com/cnsoft/kbengine_cocos2dx_demo/ 
    
+   2014-08-03 next branch: add in game chat kit with seemless integratation. e.g: player broad msg to others. change single player game to multiply player internal-chat game . 
    
  ![screenshots1](https://raw.githubusercontent.com/cnsoft/kbengine-cocos2dx/cocos2dx-cnsoft/kbe/src/client/cocos2dx/snapshots/u_cocos2d_chat.PNG)
 
