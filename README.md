@@ -61,5 +61,9 @@ sources     : https://github.com/kbengine/kbengine/
    2014-08-23 fellow thie url: https://github.com/cnsoft/kbengine-cocos2dx/commit/10f00267523e21fb4c971c3a6dc51b8a860444ab you need this patch for server side. it will enable chat demo feature.  
    
    until now, you can extend your system according this demo. e.g: define more system and implemented it in server side and client side. that's the start kit. next update, i want to create a more powerful demo.  
+   
+##Q&A
+	This demo is used cocos2dx 2.2.3. cocos2dx files are not stored in this repository. you should prepare it locally. 
+	After configure cocos2dx. place the kbedemo folder into Projects folder. open the kbedemo.sln and  can build it yourself.
 
   
