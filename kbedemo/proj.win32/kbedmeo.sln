@@ -22,18 +22,6 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libchipmunk", "..\..\..\ext
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "kbedemo", "kbedemo.vcxproj", "{76A39BB2-9B84-4C65-98A5-654D86B86F2A}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libcstdkbe", "..\libs\kbengine\src\lib\cstdkbe\cstdkbe90.vcxproj", "{A04109A7-46C9-42F9-AB29-8E3D84450172}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libnetwork", "..\libs\kbengine\src\lib\network\network90.vcxproj", "{5EF24499-4F74-4AF6-8048-650BE7BD7808}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "kbeclient_lib", "..\libs\kbengine\src\lib\client_lib\client_lib90.vcxproj", "{896616D2-A5D2-4548-859E-D59905F46140}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libeay32", "..\libs\kbengine\src\lib\third_party\openssl\vcbuild\libeay32\libeay32.vcxproj", "{26195A87-700C-42D6-A271-20B6CACC6249}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ssleay32", "..\libs\kbengine\src\lib\third_party\openssl\vcbuild\ssleay32\ssleay32.vcxproj", "{678E55F0-E0F7-4E52-82E4-9AD50F0753B8}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "helper", "..\libs\kbengine\src\lib\helper\helper90.vcxproj", "{0E032FA8-BB7B-40F6-8CB1-15F204113B24}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -64,30 +52,6 @@ Global
 		{76A39BB2-9B84-4C65-98A5-654D86B86F2A}.Debug|Win32.Build.0 = Debug|Win32
 		{76A39BB2-9B84-4C65-98A5-654D86B86F2A}.Release|Win32.ActiveCfg = Release|Win32
 		{76A39BB2-9B84-4C65-98A5-654D86B86F2A}.Release|Win32.Build.0 = Release|Win32
-		{A04109A7-46C9-42F9-AB29-8E3D84450172}.Debug|Win32.ActiveCfg = Debug|Win32
-		{A04109A7-46C9-42F9-AB29-8E3D84450172}.Debug|Win32.Build.0 = Debug|Win32
-		{A04109A7-46C9-42F9-AB29-8E3D84450172}.Release|Win32.ActiveCfg = Release|Win32
-		{A04109A7-46C9-42F9-AB29-8E3D84450172}.Release|Win32.Build.0 = Release|Win32
-		{5EF24499-4F74-4AF6-8048-650BE7BD7808}.Debug|Win32.ActiveCfg = Debug|Win32
-		{5EF24499-4F74-4AF6-8048-650BE7BD7808}.Debug|Win32.Build.0 = Debug|Win32
-		{5EF24499-4F74-4AF6-8048-650BE7BD7808}.Release|Win32.ActiveCfg = Release|Win32
-		{5EF24499-4F74-4AF6-8048-650BE7BD7808}.Release|Win32.Build.0 = Release|Win32
-		{896616D2-A5D2-4548-859E-D59905F46140}.Debug|Win32.ActiveCfg = Debug|Win32
-		{896616D2-A5D2-4548-859E-D59905F46140}.Debug|Win32.Build.0 = Debug|Win32
-		{896616D2-A5D2-4548-859E-D59905F46140}.Release|Win32.ActiveCfg = Release|Win32
-		{896616D2-A5D2-4548-859E-D59905F46140}.Release|Win32.Build.0 = Release|Win32
-		{26195A87-700C-42D6-A271-20B6CACC6249}.Debug|Win32.ActiveCfg = Debug|Win32
-		{26195A87-700C-42D6-A271-20B6CACC6249}.Debug|Win32.Build.0 = Debug|Win32
-		{26195A87-700C-42D6-A271-20B6CACC6249}.Release|Win32.ActiveCfg = Release|Win32
-		{26195A87-700C-42D6-A271-20B6CACC6249}.Release|Win32.Build.0 = Release|Win32
-		{678E55F0-E0F7-4E52-82E4-9AD50F0753B8}.Debug|Win32.ActiveCfg = Debug|Win32
-		{678E55F0-E0F7-4E52-82E4-9AD50F0753B8}.Debug|Win32.Build.0 = Debug|Win32
-		{678E55F0-E0F7-4E52-82E4-9AD50F0753B8}.Release|Win32.ActiveCfg = Release|Win32
-		{678E55F0-E0F7-4E52-82E4-9AD50F0753B8}.Release|Win32.Build.0 = Release|Win32
-		{0E032FA8-BB7B-40F6-8CB1-15F204113B24}.Debug|Win32.ActiveCfg = Debug|Win32
-		{0E032FA8-BB7B-40F6-8CB1-15F204113B24}.Debug|Win32.Build.0 = Debug|Win32
-		{0E032FA8-BB7B-40F6-8CB1-15F204113B24}.Release|Win32.ActiveCfg = Release|Win32
-		{0E032FA8-BB7B-40F6-8CB1-15F204113B24}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
