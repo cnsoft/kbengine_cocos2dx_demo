@@ -65,5 +65,15 @@ sources     : https://github.com/kbengine/kbengine/
 ##Q&A
 	This demo is used cocos2dx 2.2.3. cocos2dx files are not stored in this repository. you should prepare it locally. 
 	After configure cocos2dx. place the kbedemo folder into Projects folder. open the kbedemo.sln and  can build it yourself.
+	
+##Install
+	Install KBE Server 0.1.5 - 0.1.7 .( or you can download kbengine-cocos2dx, it is my debug server version. with it you can got the chat patch server side also. ) 
+		It seems that we should upgrade this library to support latest KBE v0.1.13. 
+	Until that, you should use correct version to test this demo. it should works on ios and andriod also. 
+	
+	if you fork this project and contribute back, you are welcomed! 
+	Sorry for can not upgrade this project in time with offical kbengine. because i have no much time can be assigned to it, for i am freelancer at the begin of this year, it meaning no salary for half past year.
+	i have to working hard on my indie game project first. so if someone like, you can buy some time from me. LOL :) 
+	Of course, i will try my best to upgrade this project soon or later. 
 
   
