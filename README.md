@@ -60,7 +60,15 @@ sources     : https://github.com/kbengine/kbengine/
  
    2014-08-23 fellow thie url: https://github.com/cnsoft/kbengine-cocos2dx/commit/10f00267523e21fb4c971c3a6dc51b8a860444ab you need this patch for server side. it will enable chat demo feature.  
    
+   2014-09-20. it should works on ios platform . no code needed to be change. you only need to create your ios project. 
+![screenshots1] ( https://raw.githubusercontent.com/cnsoft/kbengine_cocos2dx_demo/master/kbedemo/snapshots/ios_cocos2d_chat_unity.png )  
+
+   some preview video link: 
+        Win: http://v.youku.com/v_show/id_XNzM0MzE2NzE2.html 
+		ios: http://v.youku.com/v_show/id_XNzg2Nzk4NjI4.html
+
    until now, you can extend your system according this demo. e.g: define more system and implemented it in server side and client side. that's the start kit. next update, i want to create a more powerful demo.  
+   
    
 ##Q&A
 	This demo is used cocos2dx 2.2.3. cocos2dx files are not stored in this repository. you should prepare it locally. 
@@ -69,8 +77,8 @@ sources     : https://github.com/kbengine/kbengine/
 ##Install
 	Install KBE Server 0.1.5 - 0.1.7 .( or you can download kbengine-cocos2dx, it is my debug server version. with it you can got the chat patch server side also. ) 
 		It seems that we should upgrade this library to support latest KBE v0.1.13. 
-	Until that, you should use correct version to test this demo. it should works on ios and andriod also. 
-	
+	Until that, you should use correct version to test this demo. it should works on ios and andriod also.  
+
 	if you fork this project and contribute back, you are welcomed! 
 	Sorry for can not upgrade this project in time with offical kbengine. because i have no much time can be assigned to it, for i am freelancer at the begin of this year, it meaning no salary for half past year.
 	i have to working hard on my indie game project first. so if someone like, you can buy some time from me. LOL :) 
