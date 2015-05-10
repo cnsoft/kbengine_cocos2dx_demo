@@ -85,3 +85,5 @@ sources     : https://github.com/kbengine/kbengine/
 	Of course, i will try my best to upgrade this project soon or later. 
 
   
+  2015-05-10
+        create v3 branch for prepare upgraded to cocos2dx 3.x . even include WP8 support. native socket testing.
