@@ -6,7 +6,8 @@ kbengine_cocos2dx_demo
 
 ## KBEngine-cocos2dx 
 
-   会实现KBEngine Cocos2dx 版本. 重点是客户端框架封装. 提供和KBE相似的开发流程. 可能无python脚本.但用CPP写逻辑也不错吧.
+   会实现KBEngine Cocos2dx 版本. 重点是客户端框架封装. 提供和KBE相似的开发流程. 暂时无python脚本.但用CPP写逻辑也不错吧.
+   
    地址在  https://github.com/cnsoft/kbengine-cocos2dx/tree/cocos2dx-cnsoft/kbe/src/client/cocos2dx 目录下.
    有建议欢迎mail cnsoft#gmail.com 
 
@@ -45,10 +46,33 @@ kbengine_cocos2dx_demo
 	Of course, i will try my best to upgrade this project soon or later. 
 
 ##How to
-	connect to server :  check the testKBE function. 
+	connect to server :  
+		check the testKBE function. in the function, create connection with server.
         
-        demo code: 
+	demo code: 
+	
+	     call send chat msg:
+	    
         	KAccount* account = (KAccount*) KBEngineClient::ClientApp::getInstance().pPlayer();
         	account->sendMsg(" cocos2dx coming! "); 
+       
+        implement more logic:
+        	
+              handle method call like KAccount 
+        	
+        	void onRemoteMethodCall( std::string methodname,MemoryStream& s )
+		{
+			if( methodname == "receiveMsg")
+			{
+				string who;
+				string msg;
+				s.readBlob ( who );
+				s.readBlob ( msg );
+
+				this->receiveMsg( who, msg ) ;
+				//
+			}
+        	
+                
 
 Get more detail read the source code.		
