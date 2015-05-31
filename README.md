@@ -45,8 +45,10 @@ kbengine_cocos2dx_demo
 	Of course, i will try my best to upgrade this project soon or later. 
 
 ##How to
-        connect to server :  check the testKBE function. 
+	connect to server :  check the testKBE function. 
+        
         demo code: 
-          KAccount* account = (KAccount*) KBEngineClient::ClientApp::getInstance().pPlayer();
-	  account->sendMsg(" cocos2dx coming! "); 
-	get more detail read the source code.		
+        	KAccount* account = (KAccount*) KBEngineClient::ClientApp::getInstance().pPlayer();
+        	account->sendMsg(" cocos2dx coming! "); 
+
+Get more detail read the source code.		
