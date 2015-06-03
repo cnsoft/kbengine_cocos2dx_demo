@@ -21,7 +21,7 @@ kbengine_cocos2dx_demo
       
       Check the preview snapshot demo first.
       
-      ![screenshots1](https://github.com/cnsoft/kbengine_cocos2dx_demo/raw/v3/kbedemo/snapshots/OtherAvatar_with_weapon_walk1.gif)
+![screenshots2](https://github.com/cnsoft/kbengine_cocos2dx_demo/raw/v3/kbedemo/snapshots/OtherAvatar_with_weapon_walk1.gif)
    
    
  ![screenshots1](https://raw.githubusercontent.com/cnsoft/kbengine-cocos2dx/cocos2dx-cnsoft/kbe/src/client/cocos2dx/snapshots/u_cocos2d_chat.PNG)
