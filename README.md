@@ -3,7 +3,6 @@ kbengine_cocos2dx_demo
 
 kbengine_cocos2dx_demo
 
-
 ## KBEngine-cocos2dx 
 
    会实现KBEngine Cocos2dx 版本. 重点是客户端框架封装. 提供和KBE相似的开发流程. 暂时无python脚本.但用CPP写逻辑也不错吧.
@@ -16,6 +15,14 @@ kbengine_cocos2dx_demo
    2014-07-02 create submodule and moved here :  https://github.com/cnsoft/kbengine_cocos2dx_demo/ 
    
    2014-08-03 next branch: add in game chat kit with seemless integratation. e.g: player broad msg to others. change single player game to multiply player internal-chat game . like a mmorpg. chat in some channel. 工会.好友.交易.组队.
+   
+   2015-05-30
+      The new updated version is under testing. 
+      
+      Check the preview snapshot demo first.
+      
+      ![screenshots1](https://github.com/cnsoft/kbengine_cocos2dx_demo/raw/v3/kbedemo/snapshots/OtherAvatar_with_weapon_walk1.gif)
+   
    
  ![screenshots1](https://raw.githubusercontent.com/cnsoft/kbengine-cocos2dx/cocos2dx-cnsoft/kbe/src/client/cocos2dx/snapshots/u_cocos2d_chat.PNG)
  
@@ -30,7 +37,7 @@ kbengine_cocos2dx_demo
 
    until now, you can extend your system according this demo. e.g: define more system and implemented it in server side and client side. that's the start kit. next update, i want to create a more powerful demo.  
    
-   
+    
 ##Q&A
 	This demo is used cocos2dx 2.2.3. cocos2dx files are not stored in this repository. you should prepare it locally. 
 	After configure cocos2dx. place the kbedemo folder into Projects folder. open the kbedemo.sln and  can build it yourself.
