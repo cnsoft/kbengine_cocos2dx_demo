@@ -83,3 +83,5 @@ kbengine_cocos2dx_demo
                 
 
 Get more detail read the source code.		
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/cnsoft/kbengine_cocos2dx_demo/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
