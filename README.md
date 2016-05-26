@@ -16,13 +16,6 @@ kbengine_cocos2dx_demo
    
    2014-08-03 next branch: add in game chat kit with seemless integratation. e.g: player broad msg to others. change single player game to multiply player internal-chat game . like a mmorpg. chat in some channel. 工会.好友.交易.组队.
    
-   2015-05-30
-      The new updated version is under testing. 
-      
-      Check the preview snapshot demo first.
-      
-![screenshots2](https://github.com/cnsoft/kbengine_cocos2dx_demo/raw/v3/kbedemo/snapshots/OtherAvatar_with_weapon_walk1.gif)
-   
    
  ![screenshots1](https://raw.githubusercontent.com/cnsoft/kbengine-cocos2dx/cocos2dx-cnsoft/kbe/src/client/cocos2dx/snapshots/u_cocos2d_chat.PNG)
  
@@ -31,11 +24,24 @@ kbengine_cocos2dx_demo
    2014-09-20. it should works on ios platform . no code needed to be change. you only need to create your ios project. 
 ![screenshots1] ( https://raw.githubusercontent.com/cnsoft/kbengine_cocos2dx_demo/master/kbedemo/snapshots/ios_cocos2d_chat_unity.png )  
 
+
+   2015-05-30
+      The new updated version is under testing. 
+      
+      Check the preview snapshot demo first.
+      
+![screenshots2](https://github.com/cnsoft/kbengine_cocos2dx_demo/raw/v3/kbedemo/snapshots/OtherAvatar_with_weapon_walk1.gif)
+   
+  2016-05-26 
+      Prepare ipv6 support 
+      
+
    some preview video link: 
         Win: http://v.youku.com/v_show/id_XNzM0MzE2NzE2.html 
 		ios: http://v.youku.com/v_show/id_XNzg2Nzk4NjI4.html
 
    until now, you can extend your system according this demo. e.g: define more system and implemented it in server side and client side. that's the start kit. next update, i want to create a more powerful demo.  
+   
    
     
 ##Q&A
